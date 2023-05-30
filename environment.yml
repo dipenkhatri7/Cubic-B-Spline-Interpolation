@@ -1,73 +1,148 @@
 name: /Users/dipenkhatri/Desktop/D-K/DIPEN_KHATRI__SEM_4/MCSC 202 Numerical/Cubic
   Spline Interpolation/cubicInterpolation_env
 channels:
+  - conda-forge
+  - anaconda
   - defaults
 dependencies:
   - appdirs=1.4.4=pyhd3eb1b0_0
+  - appnope=0.1.2=py311hca03da5_1001
+  - asttokens=2.0.5=pyhd3eb1b0_0
+  - backcall=0.2.0=pyhd3eb1b0_0
   - blas=1.0=openblas
   - brotli=1.0.9=h1a28f6b_7
   - brotli-bin=1.0.9=h1a28f6b_7
   - brotlipy=0.7.0=py311h80987f9_1002
   - bzip2=1.0.8=h620ffc9_4
-  - ca-certificates=2023.01.10=hca03da5_0
-  - certifi=2023.5.7=py311hca03da5_0
+  - c-ares=1.19.1=hb547adb_0
+  - ca-certificates=2023.5.7=hf0a4a13_0
+  - cairo=1.16.0=h29d4eff_2
+  - certifi=2023.5.7=pyhd8ed1ab_0
   - cffi=1.15.1=py311h80987f9_3
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
+  - comm=0.1.2=py311hca03da5_0
   - contourpy=1.0.5=py311h48ca7d4_0
   - cryptography=39.0.1=py311h834c97f_0
   - cycler=0.11.0=pyhd3eb1b0_0
+  - debugpy=1.5.1=py311h313beb8_0
+  - decorator=5.1.1=pyhd3eb1b0_0
+  - eigen=3.4.0=hc021e02_0
+  - executing=0.8.3=pyhd3eb1b0_0
+  - ffmpeg=4.2.2=h04105a8_0
+  - fontconfig=2.13.94=heb65262_0
   - fonttools=4.25.0=pyhd3eb1b0_0
   - freetype=2.12.1=h1192e45_0
+  - gettext=0.21.1=h0186832_0
   - giflib=5.2.1=h80987f9_3
+  - glib=2.69.1=h514c7bf_2
+  - gmp=6.2.1=h9f76cd9_0
+  - gnutls=3.6.15=h887c41c_0
+  - graphite2=1.3.14=hc377ac9_1
+  - gst-plugins-base=1.14.1=h313beb8_1
+  - gstreamer=1.14.1=h80987f9_1
+  - harfbuzz=4.3.0=he9eebac_1
+  - hdf5=1.12.1=nompi_had0e5e0_100
+  - icu=68.2=hbdafb3b_0
   - idna=3.4=py311hca03da5_0
+  - ipykernel=6.19.2=py311h37496c9_0
+  - ipython=8.12.0=py311hca03da5_0
+  - jedi=0.18.1=py311hca03da5_1
   - jpeg=9e=h80987f9_1
+  - jupyter_client=6.1.12=pyhd3eb1b0_0
+  - jupyter_core=5.3.0=py311hca03da5_0
   - kiwisolver=1.4.4=py311h313beb8_0
+  - krb5=1.19.3=hf9b2bbe_0
+  - lame=3.100=h1a8c8d9_1003
   - lcms2=2.12=hba8e193_0
   - lerc=3.0=hc377ac9_0
   - libbrotlicommon=1.0.9=h1a28f6b_7
   - libbrotlidec=1.0.9=h1a28f6b_7
   - libbrotlienc=1.0.9=h1a28f6b_7
+  - libclang=12.0.0=default_hc321e17_4
+  - libcurl=7.87.0=h0f1d93c_0
   - libcxx=14.0.6=h848a8c0_0
   - libdeflate=1.17=h80987f9_0
+  - libedit=3.1.20191231=hc8eb9b7_2
+  - libev=4.33=h642e427_1
   - libffi=3.4.4=hca03da5_0
   - libgfortran=5.0.0=11_3_0_hca03da5_28
   - libgfortran5=11.3.0=h009349e_28
+  - libiconv=1.17=he4db4b2_0
+  - libidn2=2.3.4=h1a8c8d9_0
+  - libllvm12=12.0.1=h93073aa_2
+  - libnghttp2=1.46.0=h95c9599_0
   - libopenblas=0.3.21=h269037a_0
+  - libopus=1.3.1=h27ca646_1
   - libpng=1.6.39=h80987f9_0
+  - libpq=12.9=h65cfe13_3
+  - libsodium=1.0.18=h1a28f6b_0
+  - libssh2=1.10.0=hb80f160_2
+  - libtasn1=4.19.0=h1a8c8d9_0
   - libtiff=4.5.0=h313beb8_2
+  - libunistring=0.9.10=h3422bc3_0
+  - libvpx=1.10.0=hc377ac9_0
   - libwebp=1.2.4=ha3663a8_1
   - libwebp-base=1.2.4=h80987f9_1
+  - libxml2=2.10.3=h372ba2a_0
+  - libxslt=1.1.37=h1bd8bc4_0
   - llvm-openmp=14.0.6=hc6e5704_0
   - lz4-c=1.9.4=h313beb8_0
   - matplotlib=3.7.1=py311hca03da5_1
   - matplotlib-base=3.7.1=py311h7aedaa7_1
+  - matplotlib-inline=0.1.2=pyhd3eb1b0_2
   - munkres=1.1.4=py_0
   - ncurses=6.4=h313beb8_0
+  - nest-asyncio=1.5.1=pyhd3eb1b0_0
+  - nettle=3.7.3=h84b5d62_1
+  - nspr=4.35=hb7217d7_0
+  - nss=3.74=h142855e_0
   - numpy=1.24.3=py311hb57d4eb_0
   - numpy-base=1.24.3=py311h1d85a46_0
-  - openssl=1.1.1t=h1a28f6b_0
+  - opencv=4.6.0=py311h6956b77_3
+  - openh264=1.8.0=h98b2900_0
+  - openssl=1.1.1t=h03a7124_0
   - packaging=23.0=py311hca03da5_0
+  - parso=0.8.3=pyhd3eb1b0_0
+  - pcre=8.45=hbdafb3b_0
+  - pexpect=4.8.0=pyhd3eb1b0_3
+  - pickleshare=0.7.5=pyhd3eb1b0_1003
   - pillow=9.4.0=py311h313beb8_0
   - pip=23.0.1=py311hca03da5_0
+  - pixman=0.40.0=h27ca646_0
+  - platformdirs=2.5.2=py311hca03da5_0
   - pooch=1.4.0=pyhd3eb1b0_0
+  - prompt-toolkit=3.0.36=py311hca03da5_0
+  - psutil=5.9.0=py311h80987f9_0
+  - ptyprocess=0.7.0=pyhd3eb1b0_2
+  - pure_eval=0.2.2=pyhd3eb1b0_0
   - pycparser=2.21=pyhd3eb1b0_0
+  - pygments=2.11.2=pyhd3eb1b0_0
   - pyopenssl=23.0.0=py311hca03da5_0
   - pyparsing=3.0.9=py311hca03da5_0
   - pysocks=1.7.1=py311hca03da5_0
   - python=3.11.3=hc0d8a6c_0
   - python-dateutil=2.8.2=pyhd3eb1b0_0
+  - pyzmq=25.0.2=py311h313beb8_0
+  - qt-main=5.15.2=ha2d02b5_7
+  - qt-webengine=5.15.9=h2903aaf_4
+  - qtwebkit=5.212=h19f419d_5
   - readline=8.2=h1a28f6b_0
   - requests=2.29.0=py311hca03da5_0
   - scipy=1.10.1=py311hc76d9b0_1
   - setuptools=67.8.0=py311hca03da5_0
   - six=1.16.0=pyhd3eb1b0_1
   - sqlite=3.41.2=h80987f9_0
+  - stack_data=0.2.0=pyhd3eb1b0_0
   - tk=8.6.12=hb8d0fd4_0
   - tornado=6.2=py311h80987f9_0
+  - traitlets=5.7.1=py311hca03da5_0
   - tzdata=2023c=h04d1e81_0
   - urllib3=1.26.15=py311hca03da5_0
+  - wcwidth=0.2.5=pyhd3eb1b0_0
   - wheel=0.38.4=py311hca03da5_0
+  - x264=1!152.20180806=h1a28f6b_0
   - xz=5.4.2=h80987f9_0
+  - zeromq=4.3.4=hc377ac9_0
   - zlib=1.2.13=h5a0b063_0
   - zstd=1.5.5=hd90d995_0
 prefix: /Users/dipenkhatri/Desktop/D-K/DIPEN_KHATRI__SEM_4/MCSC 202 Numerical/Cubic
